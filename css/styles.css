@@ -42,7 +42,7 @@ header {
   font-family: Courier New;
   font-size: 5vh;
   font-weight: normal;
-  margin: 0.4rem 0 0.4rem 0;
+  margin: 0.3rem 0 0.2rem 0;
   text-align: center;
   letter-spacing: 0.1rem;
 }
@@ -185,8 +185,8 @@ header {
   top: 15%;
   position: absolute;
   width: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   padding-right: 12px;
   padding-left: 12px;
 }
