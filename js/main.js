@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 "'Tis not 5 letters thou rascally knave."];
 
   const bard_not_valid_word = ["Fie! 'Tis rubbish!", "Pah! 'Tis not a word!",
-                                "How now?What English is this?", "What, you egg!", "Is that French?"];
+                                "How now? What English is this?", "What, you egg!", "Is that French?"];
 
   const bard_win = {'1': ["Fie! Impossible!", "Go to, you are too shrewd."],
                     '2-3': ["Marry, you are too shrewd.", "Thy wit is as quick as the greyhound’s mouth.", "Thou witty fellow!"],

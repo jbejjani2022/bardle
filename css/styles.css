@@ -1,7 +1,7 @@
 html,
 body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Courier New;
   margin: 0;
   padding: 0;
 }
@@ -39,10 +39,10 @@ header {
 
 .title {
   color: gainsboro;
-  font-family: Trattatello, fantasy;
-  font-size: 6vh;
-  font-weight: bold;
-  margin: -0.8rem 0 -1rem 0;
+  font-family: Courier New;
+  font-size: 5vh;
+  font-weight: normal;
+  margin: 0.4rem 0 0.4rem 0;
   text-align: center;
   letter-spacing: 0.1rem;
 }
@@ -175,25 +175,23 @@ header {
 }
 
 #alert {
-  font-family: Trattatello, fantasy;
-  font-size: 130%;
-  letter-spacing: 0.05rem;
+  font-family: Courier New;
+  font-weight: bold;
   display: none;
   text-align: center;
   z-index: 1;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 7px;
   top: 15%;
   position: absolute;
   width: auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
 
 .modal {
-  font-family: Arial, Helvetica, sans-serif;
   display: none;
   position: fixed;
   z-index: 2;
@@ -213,6 +211,7 @@ header {
   width: 80%;
   color: gainsboro;
   max-width: 500px;
+  font-weight: normal;
 }
 
 .modal-content hr {
@@ -284,16 +283,17 @@ header {
 
 .statistic-container .statistic {
   font-size: 36px;
-  font-weight: 400;
   display: flex;
-  letter-spacing: 0.05em;
 }
 
 #stats-header {
-  font-family: Trattatello, fantasy;
-  font-size: 140%;
-  letter-spacing: 0.1rem;
+  font-family: Courier New;
+  font-size: 110%;
   text-align: center;
   margin-top: -2rem;
   margin-bottom: -1rem;
+}
+
+h1, h2, h3 {
+  font-weight: normal;
 }
