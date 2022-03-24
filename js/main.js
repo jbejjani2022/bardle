@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const bard_win = {'1': ["Fie! Impossible!", "Go to, you are too shrewd."],
                     '2-3': ["Marry, you are too shrewd.", "Thy wit is as quick as the greyhound’s mouth.", "Thou witty fellow!"],
                     '4': ["Thy wit is a very bitter sweeting, it is a most sharp sauce.", "Marry, thou hast a fine wit.", "Thou witty fellow!", "Thy wit is as quick as the greyhound’s mouth."],
-                    '5-6': ["Better a witty fool than a foolish wit. God bless thee!", "Go to, thou art a witty fool."]};
+                    '5-6': ["Better a witty fool than a foolish wit.", "Go to, thou art a witty fool."]};
 
   const bard_loss = ['Fie! Thou damned and luxurious mountain goat.', 'Fie! Thou lump of foul deformity.',
                       'Fie! Thou hast no more brain than I have in mine elbows!', 'Fie! Thou sodden-witted lord!',
