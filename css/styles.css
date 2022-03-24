@@ -40,7 +40,7 @@ header {
 .title {
   color: gainsboro;
   font-family: Courier New;
-  font-size: 5vh;
+  font-size: 5vmin;
   font-weight: normal;
   margin: 0.3rem 0 0.2rem 0;
   text-align: center;
@@ -84,8 +84,8 @@ header {
 
 .square {
   border: 2px solid rgb(58, 58, 60);
-  width: 8vh;
-  height: 8vh;
+  width: 8vmin;
+  height: 8vmin;
 
   display: inline-flex;
   justify-content: center;
@@ -116,15 +116,15 @@ header {
   border-color: rgb(83, 141, 78);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .square {
-    min-width: 15vw;
-    min-height: 15vw;
+    min-width: 12vw;
+    min-height: 12vw;
   }
 }
 
 #keyboard-container {
-  height: 200px;
+  height: 29vh;
 }
 
 .keyboard-row {
@@ -140,8 +140,8 @@ header {
   font-weight: bold;
   border: 0;
   padding: 0;
-  margin-right: 4px;
-  height: 55px;
+  margin-right: 3px;
+  height: 8vh;
   border-radius: 4px;
   cursor: pointer;
   user-select: none;
