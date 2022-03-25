@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
                       "You are not worth another word, else I'd call you knave.", 'What, you egg!'];
 
 
-  const alert_duration = 1000;
+  const alert_duration = 1100;
 
   initLocalStorage();
   initHelpModal();
