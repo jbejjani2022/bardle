@@ -344,7 +344,7 @@ document.addEventListener("DOMContentLoaded", () => {
          }
        );
 
-       if (!res.ok & !Object.keys(words).includes(guessedWord.toLowerCase())) {
+       if (!res.ok && !Object.keys(words).includes(guessedWord.toLowerCase())) {
          throw Error();
       }
 
