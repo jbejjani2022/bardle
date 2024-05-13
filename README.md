@@ -1,4 +1,4 @@
-BARDLE is a Wordle spinoff using only words from Shakespeare's works.
+[BARDLE](https://jbejjani2022.github.io/bardle/) is a Wordle spinoff using only words from Shakespeare's works. Play at https://jbejjani2022.github.io/bardle/.
 
 The Words:
 - I wrote a Python script that takes the Bard's complete works as input and extracts every 5 letter word into one big list. I found that the Bard wrote 2,948 distinct 5 letter words. These include everything from character names to words from play titles.
