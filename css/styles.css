@@ -184,7 +184,7 @@ header {
   border-radius: 6px;
   top: 15%;
   position: absolute;
-  width: auto;
+  width: 40%;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-right: 0.7rem;
@@ -242,7 +242,7 @@ header {
   width: 70%;
 }
 
-#email {
+#footer {
   justify-content: center;
   text-align: center;
 }
@@ -250,6 +250,8 @@ header {
 #bard-wink {
   width: 20%;
   margin-bottom: -1rem;
+  justify-content: center;
+  text-align: center;
 }
 
 #methodology {

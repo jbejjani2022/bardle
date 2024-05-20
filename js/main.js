@@ -306,6 +306,7 @@ document.addEventListener("DOMContentLoaded", () => {
     window.localStorage.setItem('currentStreak', 0);
   }
 
+
   async function handleSubmitWord() {
     const currentWordArr = getCurrentWordArr();
     const guessedWord = currentWordArr.join("");
@@ -429,17 +430,18 @@ document.addEventListener("DOMContentLoaded", () => {
           updateTotalGames();
           updateStatsPostWin();
           // resetGameState();
+          return;
         }, 3000);
 
-        setTimeout(() => {
-          $('#alert').fadeOut('slow');
-          // const okSelected = window.confirm("Nice nerd.");
-          // if (okSelected) {
-          //   clearBoard();
-          //   showResult();
-          // }
-          return;
-        }, 6000);
+        // setTimeout(() => {
+        //   $('#alert').fadeOut('slow');
+        //   // const okSelected = window.confirm("Nice nerd.");
+        //   // if (okSelected) {
+        //   //   clearBoard();
+        //   //   showResult();
+        //   // }
+        //   return;
+        // }, 6000);
       }
 
       if (guessedWords.length === 6 && guessedWord !== currentWord) {
@@ -461,7 +463,8 @@ document.addEventListener("DOMContentLoaded", () => {
       }
 
       guessedWords.push([]);
-    } catch (_error) {
+    } 
+    catch (_error) {
         // const firstLetterId = guessedWordCount * 5 + 1;
         // currentWordArr.forEach((letter, index) => {
 //
