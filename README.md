@@ -1,6 +1,6 @@
 # [BARDLE](https://jbejjani2022.github.io/bardle/)
 
-Bardle is a Wordle spinoff using only words from Shakespeare's works.
+Bardle is a Wordle spinoff using only words from Shakespeare's works, with Shakespeare reacting as you play.
 Play it at https://jbejjani2022.github.io/bardle/.
 
 The Words:
