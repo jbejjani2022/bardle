@@ -1,7 +1,7 @@
-# [BARDLE](https://jbejjani2022.github.io/bardle/)
+# [BARDLE](https://joeybejjani.github.io/bardle/)
 
 Bardle is a Wordle spinoff using only words from Shakespeare's works, with Shakespeare reacting as you play.
-Play it at https://jbejjani2022.github.io/bardle/.
+Play it [here](https://joeybejjani.github.io/bardle/).
 
 The Words:
 - I wrote a Python script that takes the Bard's complete works as input and extracts every 5 letter word into one big list. I found that the Bard wrote 2,948 distinct 5 letter words. These include everything from character names to words from play titles.
